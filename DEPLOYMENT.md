@@ -22,18 +22,22 @@ After setup, Jay can ask Frank to update the site. Frank can edit files, commit 
 
 - Website files imported from `jay_site_v4_interactive.zip`.
 - Netlify config exists: `netlify.toml`.
-- Local Git repository should be created before first deployment.
-- `sitemap.xml` still uses `https://example.netlify.app/`.
-- Replace sitemap URL after the real Netlify URL is known.
+- Local Git repository created.
+- GitHub repository connected:
+  `https://github.com/singforfree2004-sudo/jay-personal-site`
+- Netlify production URL:
+  `https://animated-panda-03c39b.netlify.app/`
+- `sitemap.xml` uses the production Netlify URL.
 
-## One-Time Setup Still Needed
+## One-Time Setup Completed
 
-Jay needs to confirm or perform these account steps:
+Completed account steps:
 
-1. GitHub account login or authorization.
-2. Create or authorize a GitHub repository for this site.
-3. Connect that GitHub repository to Netlify.
-4. Allow Netlify to deploy from the selected GitHub repository.
+1. GitHub account authorization.
+2. GitHub repository creation.
+3. GitHub push from local project.
+4. Netlify connection to GitHub repository.
+5. Netlify production deployment.
 
 Frank can guide and execute the technical steps where permission is available.
 
@@ -41,6 +45,12 @@ Frank can guide and execute the technical steps where permission is available.
 
 ```text
 jay-personal-site
+```
+
+Actual GitHub repository:
+
+```text
+https://github.com/singforfree2004-sudo/jay-personal-site
 ```
 
 Recommended visibility:
@@ -72,6 +82,12 @@ Reason:
 
 - This is a plain static website.
 - `index.html` is already at the project root.
+
+Actual production URL:
+
+```text
+https://animated-panda-03c39b.netlify.app/
+```
 
 ## Update Workflow
 
