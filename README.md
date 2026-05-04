@@ -1,6 +1,6 @@
-# Jay Hsu Personal Site
+# Chih-Chieh (Jay) Hsu Personal Site
 
-This is Jay Hsu's personal website project.
+This is Chih-Chieh (Jay) Hsu's personal website project.
 
 Local project path:
 
